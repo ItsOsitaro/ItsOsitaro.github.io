@@ -1,0 +1,37 @@
+body div {
+    display: flex;
+    justify-content: center;
+}
+
+#login-btn {
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #00c3ff;
+    color: black;
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#login-link p {
+    display: inline;
+    vertical-align: middle;
+}
+
+#login-link img {
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+#login-link {
+    text-decoration: none;
+    color: black;
+}
+
+#login-btn:hover {
+    background-color: #53d7ff;
+}
