@@ -949,4 +949,7 @@ footer .footer-links {
     .footer-links a {
         font-size: 0.9rem;
     }
+    .bell{
+        display: none;
+    }
 }
