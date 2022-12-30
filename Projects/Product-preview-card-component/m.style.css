@@ -1,0 +1,70 @@
+@media (max-width: 570px) {
+
+    main {
+        width: calc(104px + 104px);
+        height: 352px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #h1 {
+        padding-right: 5px;
+    }
+
+    h1 {
+        font-size: 2px;
+        line-height: 38px;
+    }
+
+    h2 {
+        font-size: 1px;
+        letter-spacing: 2px;
+    }
+
+    p {
+        font-size: 1px;
+    }
+
+    #left {
+        height: 126px;
+    }
+
+    #right {
+        margin: 20px;
+    }
+
+    .text {
+        padding: 0px;
+    }
+
+    #span {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    span:first-child {
+        font-size: 15px;
+        padding-right: 5px;
+    }
+
+    span:last-child {
+        font-size: 10px;
+    }
+
+    button {
+        width: 100%;
+        height: 15px;
+        transition: all 0.3s;
+    }
+
+    button p {
+        font-size: 2px;
+    }
+
+    button i {
+        font-size: 2px;
+    }
+}
