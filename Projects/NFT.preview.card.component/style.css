@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d192b;
+    font-family: 'Outfit', sans-serif;
+    color: #8bacda;
+}
+
+main {
+    height: 470px;
+    width: 240px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: #14253d;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.up {
+    width: 100%;
+}
+
+.up img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.middle {
+    padding-bottom: 0px;
+}
+
+.middle h1 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
+.about {
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: #00fff7;
+    display: flex;
+    align-items: center;
+}
+
+.price p {
+    font-size: 13px;
+}
+
+.price img {
+    width: 10px;
+    margin-right: 5px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.time p {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.time img {
+    margin-right: 5px;
+    width: 15px;
+}
+
+.down {
+    border-top: 1px solid #2f415b;
+    display: flex;
+    align-items: center;
+}
+
+.down img {
+    width: 30px;
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.down p {
+    font-size: 13px;
+}
+
+.down span {
+    color: #ffffff;
+}
+
+.up {
+    position: relative;
+    float: left;
+}
+
+.up {
+    position: relative;
+    /* width: 360px; */
+    max-width: 100%;
+}
+
+.up img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.up .top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 247, 0.3);
+    height: 90%;
+    border-radius: 10px;
+}
+
+.top img {
+    width: 40px;
+    height: 40px;
+}
+
+.up:hover .top {
+    opacity: 1;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #00fff7;
+    cursor: pointer;
+}
+
+.down span:hover {
+    color: #00fff7;
+    cursor: pointer;
+}
